@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Khushi's Tech Blog</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Khushi's Tech Blog</h1>
+    <p>Learn web development topics in a simple way!</p>
+  </header>
+
+  <div class="container">
+    <!-- Main Blog Section -->
+    <main>
+      <article class="blog-post">
+        <h2>🌐 What is Frontend Development?</h2>
+        <p class="date">Published on July 4, 2025</p>
+        <p>The frontend is the part of a website that users see and interact with. It includes HTML (structure), CSS (styling), and JavaScript (interactivity). Frontend developers make sure websites look good and work on all devices.</p>
+        <a href="#">Read more</a>
+      </article>
+
+      <article class="blog-post">
+        <h2>💾 What is Backend Development?</h2>
+        <p class="date">Published on July 3, 2025</p>
+        <p>The backend is the server side of a web application. It handles logic, database connections, and routes. Common technologies include Node.js, Express, PHP, and Python. Backend ensures data flows securely between frontend and server.</p>
+        <a href="#">Read more</a>
+      </article>
+
+      <article class="blog-post">
+        <h2>🛠️ How Frontend & Backend Work Together</h2>
+        <p class="date">Published on July 2, 2025</p>
+        <p>Frontend sends user input to the backend, which processes it and returns a response. For example, when you submit a form, frontend sends the data to backend using an API. Backend stores or uses it, and may return a success message or result.</p>
+        <a href="#">Read more</a>
+      </article>
+    </main>
+
+    <!-- Sidebar Section -->
+    <aside>
+      <h3>About Me</h3>
+      <p>Hi, I'm Khushi Jadhav — a passionate web developer. I love to learn and share web development concepts in simple words.</p>
+
+      <h3>Topics Covered</h3>
+      <ul>
+        <li>Frontend Basics</li>
+        <li>Backend Concepts</li>
+        <li>How Web Works</li>
+        <li>HTML & CSS Projects</li>
+      </ul>
+    </aside>
+  </div>
+
+  <footer>
+    <p>© 2025 Khushi's Blog | Built with HTML & CSS</p>
+  </footer>
+
+</body>
+</html>
